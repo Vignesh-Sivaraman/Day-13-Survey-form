@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+   
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+  </head>
+  <body>
+    <form class="row g-3 survey-form">
+      <div class="col-lg-3 col-sm-6">
+        <label for="inputFirstName" class="form-label title-text"
+          ><b>Name</b> <span class="marking">*</span></label
+        >
+        <input type="text" class="form-control" id="inputFirstName" />
+        <div id="firstNameHelp" class="form-text sub-text">First</div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <label for="inputLastName" class="notUsed form-label title-text"
+          >p</label
+        >
+        <input type="text" class="form-control" id="inputLastName" />
+        <div id="lastNameHelp" class="form-text sub-text">Last</div>
+      </div>
+      <div class="row g-3">
+        <div class="col-lg-6 col-sm-8">
+          <label for="inputEmail4" class="form-label title-text"
+            ><b> Email </b><span class="marking">*</span></label
+          >
+          <input type="email" class="form-control" id="inputEmail4" />
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-12">
+        <label for="starRating" class="form-label title-text">
+          <b>Your Experience </b><span class="marking">*</span></label
+        >
+        <div>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+        </div>
+        <div>Overall, how would you rate your experience with us?</div>
+      </div>
+      <label class="form-label title-text">
+        <b>How satisfied are you with <span class="marking">*</span></b>
+      </label>
+      <div class="row content-text">
+        <div class="offset-2 col-lg-2 topics">Very unsatisfied</div>
+        <div class="col-lg-2 topics">unsatisfied</div>
+        <div class="col-lg-2 topics">Neutral</div>
+        <div class="col-lg-2 topics">satisfied</div>
+        <div class="col-lg-2 topics">Very satisfied</div>
+      </div>
+      <div class="row data-row">
+        <div class="col-lg-2">Purchase</div>
+        <div class="col-lg-2 topics">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault1"
+          />
+        </div>
+        <div class="col-lg-2 topics">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault1"
+          />
+        </div>
+        <div class="col-lg-2 topics">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault1"
+          />
+        </div>
+        <div class="col-lg-2 topics">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault1"
+          />
+        </div>
+        <div class="col-lg-2 topics">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault1"
+          />
+        </div>
+      </div>
+      <div class="row data-row2">
+        <div class="col-lg-2">Service</div>
+        <div class="col-lg-2 topics">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault1"
+          />
+        </div>
+        <div class="col-lg-2 topics">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault1"
+          />
+        </div>
+        <div class="col-lg-2 topics">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault1"
+          />
+        </div>
+        <div class="col-lg-2 topics">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault1"
+          />
+        </div>
+        <div class="col-lg-2 topics">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault1"
+          />
+        </div>
+      </div>
+      <div class="row data-row">
+        <div class="col-lg-2">Company Overall</div>
+        <div class="col-lg-2 topics">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault1"
+          />
+        </div>
+        <div class="col-lg-2 topics">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault1"
+          />
+        </div>
+        <div class="col-lg-2 topics">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault1"
+          />
+        </div>
+        <div class="col-lg-2 topics">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault1"
+          />
+        </div>
+        <div class="col-lg-2 topics">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault1"
+          />
+        </div>
+      </div>
+      <label class="form-label title-text">
+        <b>How likely are you to <span class="marking">*</span></b>
+      </label>
+      <div class="row content-text">
+        <div class="offset-2 col-lg-2 topics">Very unsatisfied</div>
+        <div class="col-lg-2 topics">unsatisfied</div>
+        <div class="col-lg-2 topics">Neutral</div>
+        <div class="col-lg-2 topics">satisfied</div>
+        <div class="col-lg-2 topics">Very satisfied</div>
+      </div>
+      <div class="row data-row">
+        <div class="col-lg-2">Buy from us again</div>
+        <div class="col-lg-2 topics">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault1"
+          />
+        </div>
+        <div class="col-lg-2 topics">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault1"
+          />
+        </div>
+        <div class="col-lg-2 topics">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault1"
+          />
+        </div>
+        <div class="col-lg-2 topics">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault1"
+          />
+        </div>
+        <div class="col-lg-2 topics">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault1"
+          />
+        </div>
+      </div>
+      <div class="row data-row2">
+        <div class="col-lg-2">Recommend our product to others</div>
+        <div class="col-lg-2 topics">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault1"
+          />
+        </div>
+        <div class="col-lg-2 topics">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault1"
+          />
+        </div>
+        <div class="col-lg-2 topics">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault1"
+          />
+        </div>
+        <div class="col-lg-2 topics">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault1"
+          />
+        </div>
+        <div class="col-lg-2 topics">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault1"
+          />
+        </div>
+      </div>
+      <div class="row data-row">
+        <div class="col-lg-2">Recommend our company to others</div>
+        <div class="col-lg-2 topics">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault1"
+          />
+        </div>
+        <div class="col-lg-2 topics">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault1"
+          />
+        </div>
+        <div class="col-lg-2 topics">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault1"
+          />
+        </div>
+        <div class="col-lg-2 topics">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault1"
+          />
+        </div>
+        <div class="col-lg-2 topics">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault1"
+          />
+        </div>
+      </div>
+      <div class="title-text">Additional comments or suggestions</div>
+      <textarea name="" id="comments" cols="12" rows="8"></textarea>
+
+      <div class="col-12">
+        <button type="submit" class="btn btn-secondary btn-lg">Submit</button>
+      </div>
+      </div>
+    </form>
+  </body>
+</html>
