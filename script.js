@@ -35,3 +35,9 @@ setInterval(function () {
   if (image_counter == favicon_images.length - 1) image_counter = 0;
   else image_counter++;
 }, 500);
+
+$(document).ready(function () {
+  $(".dropdown-menu li a").click(function () {
+    $("#options").text($(this).text());
+  });
+});
